@@ -1,0 +1,338 @@
+/*  ---------------------Nav bar header------------------------------------- */
+.total{
+  width:6px;
+  height:6px;
+  align-items:center;
+  border-radius:50%;
+  border:none;
+  background-color: rgb(4, 31, 55);
+  color: white;
+  padding: 1px 5px;
+  font-size: 10px;
+  position: relative;
+  top:-42px;
+  left:4px;
+  
+}
+.navhead{
+  font-size: 20px;
+  font-weight:500;
+}
+/* .head{
+  position: fixed;
+  z-index: 1;
+  width: 1350px;
+} */
+/* -------------------------------SliderData Css--------------------------- */
+
+.firstdiv{
+    display: "flex";
+    justify-content: center;
+    gap: 10;
+    width: "100%";
+}
+.seconddiv{
+   display: "flex";
+   justify-content: "flex-start";
+   margin-right: 40px;
+   padding: "0 5rem";
+   margin-left: 60px;
+}
+ .backgroundSliderData{
+  background-color:rgba(221, 235, 249, 0.389) ;
+}
+.sliderbtn{
+  border: none;
+  background-color:#edf6d0d9;
+  margin-left: -220px;
+}
+
+/* -------------------------------ServiceData Css--------------------------- */
+.serviceCard{
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+  margin: 10% 0 10% 0;
+}
+
+/* -------------------------------BigDicoumntData Css--------------------------- */
+.backgroundBigDiscount{
+  background-color: rgba(221, 235, 249, 0.389);
+  padding-top: 5%;
+}
+
+.link .heart{
+  visibility: hidden;
+  position:absolute;
+  top:10px;
+  left: 240px;
+  font-size: 28px;
+  color: red; 
+}
+.bigCountCard:hover .heart{
+  visibility: visible;
+
+}
+.bigCountCard{
+  width: 290px;
+  border: none;
+  border-radius: 10px;
+  height: 440px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.bigdiscountimg{
+  height: 200px;
+  width: 250px;
+}
+.bigdiscountbtn{
+  width: 70px;
+  height: 24px;
+  border-radius: 10px;
+  color: white;
+  background-color: rgb(17, 17, 73);
+  border: none;
+  margin: 12px;
+  margin-right: 200px;
+}
+.bigdiscountproductname{
+text-align: left;
+ font-weight: 500;
+}
+.bigdiscountprice{
+  font-weight: 500;
+  font-size: larger;
+  margin-top: 4px;
+  margin-left: -80px;
+}
+.bigdiscountfivestar{
+  color: orange;
+  text-align: left;
+}
+.buttonadd{
+ width: 45px;
+ height: 45px;
+ align-items: center;
+ border-radius: 50%;
+ border: none;
+ background-color: rgb(247, 246, 245);
+ font-size: 26px;
+}
+
+/* -------------------------------NerArrivalData Css--------------------------- */
+.NewCountCard{
+  width: 290px;
+  border: none;
+  border-radius: 10px;
+  height: 440px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.new .arrival{
+  visibility: hidden;
+  position:relative;
+  top:-80px; 
+  left: 240px; 
+  font-size: 28px;
+  color: red; 
+}
+.NewCountCard:hover .arrival{
+  visibility: visible;
+
+}
+.backgroundNewArrival{
+  background-color: rgba(250, 251, 252, 0.926);
+  padding-top: 5%;
+}
+.NewArrivalimg{
+  height: 200px;
+  width: 250px;
+}
+.NewArrivalproductname{
+  text-align: left;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.newarrivalfivestar{
+  color: orange;
+  margin-left: -110px;
+}
+.newarrivalprice{
+  font-weight: 500;
+  font-size: larger;
+  margin-top: 4px;
+  margin-left: -70px;
+}
+
+/* -------------------------------BestSalesData Css--------------------------- */
+.backgroundBestSale{
+  background-color: rgba(221, 235, 249, 0.389);
+  padding-top: 5%;
+}
+.best .sale{
+  visibility: hidden;
+  position:relative;
+  top:-80px; 
+  left: 240px; 
+  font-size: 28px;
+  color: red; 
+}
+.BestSaleCard:hover .sale{
+  visibility: visible;
+
+}
+.bestrow{
+  justify-content: space-evenly;
+  display: flex;
+}
+.BestSaleCard{
+  text-decoration: none;
+  width: 290px;
+  border: none;
+  border-radius: 10px;
+  height: 420px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.BestSaleimg{
+  height: 200px;
+  width: 250px;
+}
+.BestSaleproductname{
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  font-weight: 500;
+}
+.bestsaleprice{
+  font-weight: 500;
+  font-size: larger;
+  margin-top: 5px;
+  margin-left: -60px;
+}
+ .bestsalefivestar{
+  color: orange;
+  margin-left: -110px;
+ }
+
+/*--------------------------------- single Productdetail page Css ----------------------------------------*/
+.singleproductimg{
+    background-image: url('https://www.jiomart.com/images/product/original/rvwl506j0h/rylan-plastic-non-ticking-classic-digital-wall-clock-8-x-3-8-x-5-centimeters-product-images-orvwl506j0h-p601439831-3-202305130013.jpg?im=Resize=(1000,1000)');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+.singleproductname{
+  position: relative;
+  top:320px;
+  /* padding-top: 400px; */
+
+}
+.btnproductdetail{
+  height: 25px;
+  width: 55px;
+  border-radius: 5px;
+  background-color: white;
+  border: 1px solid rgba(9, 9, 89, 0.712);
+}
+.addtocart{
+  background-color: rgba(3, 3, 54, 0.686);
+  color: white;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+}
+.descriptionreview{
+  text-align: left;
+}
+.singlepageimg{
+  height: 300px;
+  width: 500px;
+}
+.fivestar{
+  color: orange;
+}
+.singlepagecontent{
+  text-align: left;
+}
+.singlerating{
+  margin-top: 10px;
+}
+.productdetailrating{
+ font-size: 20px;
+ margin-left: 50px;
+}
+.productdetailprice{
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.productcategory{
+  font-size: 20px;
+  margin-left: 50px;
+}
+.productdescription{
+  margin-top: 30px;
+}
+.productreview{
+  color: gray;
+  margin-left: 20px;
+}
+/* -------------------------Shop Page---------------------------------- */
+.shopstar{
+  color: orange;
+  text-align: left;
+}
+.shopproduct{
+  position: relative;
+  top:340px;
+  right:20px;
+
+}
+.shopcard{
+  text-decoration: none;
+  width: 290px;
+  border: none;
+  border-radius: 10px;
+  height: 500px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.filterbycategory{
+  color: white;
+  border: none;
+}
+.shopbg{
+  background-image: url('https://www.jiomart.com/images/product/original/rvwl506j0h/rylan-plastic-non-ticking-classic-digital-wall-clock-8-x-3-8-x-5-centimeters-product-images-orvwl506j0h-p601439831-3-202305130013.jpg?im=Resize=(1000,1000) ');
+  height: 700px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.searchicon{
+  position: relative;
+  left:-40px;
+}
+.shopprice{
+  font-weight: 500;
+  font-size: larger;
+  margin-top: 4px;
+  margin-left: -80px;
+}
+.shopproductname{
+   text-align: left;
+   font-weight: 500;
+  }
+.select{
+  border-radius: 6px;
+  color: white;
+  background-color: rgb(5, 5, 80);
+  border: none;
+  padding: 5px;
+}
+.search{
+  padding: 4px;
+  border-radius: 10px;
+  width: 620px;
+  border: none;
+  background-color: rgb(244, 242, 242); 
+}
+ 
